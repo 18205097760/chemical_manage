@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+/**公共元素*/
+/* header, center, footer */
+.header,.center,.footer {
+	width: 965px;
+	margin: 0 auto;
+}

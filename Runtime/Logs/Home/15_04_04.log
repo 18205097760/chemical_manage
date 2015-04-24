@@ -1,0 +1,10 @@
+[ 2015-04-04T12:50:41+08:00 ] ::1 /ChemicalManage/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `chemical_basic` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `chemical_basic` [ RunTime:0.0200s ]
+

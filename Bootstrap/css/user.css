@@ -1,0 +1,531 @@
+@CHARSET "UTF-8";
+/**公共元素*/
+/* header, center, footer */
+.header,.center,.footer {
+	width: 965px;
+	margin: 0 auto;
+}
+/* header */
+.intro {
+	padding-top: 37px;
+}
+/* clearfix */
+.clearfix:after {
+	content: '\20';
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.logo {
+	float: left;
+	margin-bottom: -16px;
+	position: relative;
+	margin-left: 15px;
+	_margin-left: 8px;
+}
+
+.nav {
+	border-bottom: 2px solid #86DDF2;
+}
+
+.nav ul {
+	border-bottom: 6px solid #1393B3;
+	height: 32px;
+	overflow: hidden;
+	padding-left: 250px;
+}
+
+.nav li {
+	float: left;
+	margin-right: -1px;
+}
+
+.nav li a,.nav li a b {
+	display: inline-block;
+	height: 32px;
+	background: url(../imgs/user/nav_bg.png) no-repeat;
+}
+
+.nav li a {
+	background-position: 0 -32px;
+	color: #000;
+	padding-left: 25px;
+}
+
+.nav li a b {
+	cursor: pointer;
+	background-position: 100% -32px;
+	line-height: 35px;
+	font-weight: bold;
+	font-size: 14px;
+	padding-right: 25px;
+}
+
+.nav li.current a,.nav li a:hover {
+	background-position: 0 0;
+	color: #fff;
+}
+
+.nav li.current a b,.nav li a:hover b {
+	background-position: 100% 0;
+}
+
+.search {
+	width: 820px;
+	margin: 20px 250px 100px;
+}
+
+.grid-wrap {
+	margin-bottom: 13px;
+}
+
+.grid-main {
+	float: left;
+	width: 965px;
+	margin-right: 13px;
+	position: relative;
+	overflow: hidden;
+}
+
+.grid-main s.tl,.grid-main s.tr,.grid-main s.bl,.grid-main s.br {
+	background-repeat: no-repeat;
+	display: block;
+	width: 5px;
+	height: 5px;
+	position: absolute;
+	z-index: 2012;
+	font-size: 0;
+	line-height: 0;
+}
+
+.grid-main s.tl {
+	top: 0;
+	left: 0;
+}
+
+.grid-main s.tr {
+	top: 0;
+	right: 0;
+}
+
+.grid-main s.bl {
+	bottom: 0;
+	left: 0;
+}
+
+.grid-main s.br {
+	bottom: 0;
+	right: 0;
+}
+/**首页特有元素*/
+/* product */
+.product s.tl,.product s.tr,.product s.bl,.product s.br {
+	background-image: url(../imgs/user/index/product_bg.png);
+}
+
+.product s.tl {
+	background-position: 0 -320px;
+}
+
+.product s.tr {
+	background-position: -5px -320px;
+}
+
+.product s.bl {
+	background-position: 0 -325px;
+}
+
+.product s.br {
+	background-position: -5px -325px;
+}
+
+.product-wrap {
+	border: 1px solid #ccc;
+	background: url(../imgs/user/index/product_bg.png) repeat-x 0 14px;
+	width: 830px;
+	padding: 11px 0 10px 18px;
+	overflow: hidden;
+}
+
+.product-rank {
+	width: 830px;
+}
+
+.rank-item {
+	border-right: 1px dashed #ccc;
+	float: left;
+	width: 230px;
+	padding: 0 27px 10px 0;
+	margin-right: 25px;
+}
+
+.rank-item h3 {
+	border-bottom: 1px solid #ccc;
+	height: 31px;
+	line-height: 31px;
+	margin-bottom: 15px;
+}
+
+.rank-item h3 b {
+	font-size: 14px;
+	float: left;
+	padding-left: 2px;
+}
+
+.rank-item h3 a.more {
+	background: url(../imgs/user/index/product_bg.png) no-repeat 100% -254px;
+	padding-right: 13px;
+	float: right;
+}
+
+.rank-item ol {
+	padding-left: 8px;
+}
+
+.rank-item ol li a {
+	background: url(../imgs/user/index/product_bg.png) no-repeat 0 -289px;
+	padding-left: 20px;
+}
+/**搜索页特有元素*/
+/* toolbar */
+.l-toolbar {
+    background: url(../imgs/user/l_main_bg.png) repeat-x scroll 0 0 transparent;
+    border-top: 1px solid #1393B3;
+    height: 36px;
+    overflow: hidden;
+    position: relative;
+}
+
+.toolbar-page {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+.toolbar-tip {
+    line-height: 36px;
+    padding-left: 15px;
+}
+
+.toolbar-tip b {
+    color: #CE0703;
+    font-weight: bold;
+    padding: 0 5px;
+}
+.l-pagenavi {
+	float: right;
+}
+.l-pagenavi .multipage{
+	margin-top:0;
+}
+.multipage {
+    margin-top:20px;
+    position:relative;
+    margin-left:20px;
+}
+.multipage a:hover span {
+    color:#fff;
+    background:#004199;
+    text-decoration: none
+}
+.multipage span{
+    list-style:none;
+    float:left;
+    height:20px;
+    padding-right:8px;
+    padding-left:8px;
+    background-color: #FFFFFF;
+    border: 1px solid #ccc;
+    margin-right:1px;
+    line-height:20px;
+    cursor:pointer;
+}
+.multipage .nolink {
+    color:#ccc;
+    cursor:default;
+}
+.multipage span.prexpage {
+    left: 0;
+    padding: 0 6px;
+    line-height:20px;
+}
+
+.multipage span.nextpage {
+    right: 0;
+    padding: 0 6px;
+    line-height:20px;
+}
+
+.multipage .total {
+    background-color: #F5FBFF;
+    border: 1px solid #ccc;
+    font-weight: bold;
+}
+.multipage .button{
+    border:0px;
+}
+.multipage .input{
+    border: 1px;
+    width: 30px;
+    height: 16px;
+    background: #FFFFFF;
+}
+.multipage .current {
+    background-color: #fff;
+    color: #eb6100;
+    border:none;
+    cursor:default;
+}
+.l-content {
+    margin-bottom: 20px;
+}
+.l-content ul li {
+	padding: 13px 15px;
+	border-bottom: 1px dashed #ccc;
+	float: left;
+	width: 700px;
+}
+
+.l-content ul li:hover, .l-content ul li.hover {
+	background: #F5FCFE;
+}
+
+.l-content ul a.img-wrap {
+	display: block;
+	width: 104px;
+	height: 74px;
+	overflow: hidden;
+	border: 3px solid #1393B3;
+	background: #E7E7E7;
+	float: left;
+	margin-right: 22px;
+}
+
+.l-content .info-wrap {
+	float: left;
+	width:550px;
+	overflow:hidden;
+}
+
+.l-content .info-wrap h2 {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 13px 0;
+}
+
+.l-content .info-wrap dt, .l-content .info-wrap dd {
+	float: left;
+}
+
+.l-content .info-wrap dd {
+	width: 80px;
+	overflow: hidden;
+}
+
+.l-content .info-wrap em{
+    color: #CE0703;
+    font-weight: bold;
+}
+
+/**详情页面特有元素*/
+/* d-title */
+.d-title {
+	border-top: 1px solid #1393B3;
+	border-bottom: 1px dashed #ccc;
+	padding-left: 30px;
+}
+
+.d-title h1 {
+	font-size: 36px;
+	font-family: '\9ED1\4F53';
+}
+.d-content {
+	padding: 22px 0 0 15px;
+}
+/* d-summary */
+.d-summary {
+	margin-bottom: 24px;
+}
+
+.d-summary .summary-img {
+	width: 280px;
+	height:210px;
+}
+
+.d-summary .summary-img a.img-wrap {
+	display: block;
+	background: #ccc;
+	width: 270px;
+	height: 200px;
+	margin: 5px;
+}
+
+.d-summary .summary-img b {
+	background: url(http://pages.basechem.org/img_v3/d_content_bg.png) no-repeat;
+	display: block;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	width: 24px;
+	height: 24px;
+}
+
+.d-summary .summary-text {
+	overflow: hidden;
+	zoom: 1;
+	padding-left: 20px;
+	font-size: 14px;
+	padding-top: 8px;
+	line-height: 22px;
+}
+
+.d-summary .summary-text li b {
+	font-weight: bold;
+	float: left;
+}
+
+.d-summary .summary-text li span {
+	display: block;
+	overflow: hidden;
+	zoom: 1;
+}
+.slides_container {
+	width:570px;
+	height:270px;
+	overflow:hidden;
+	position:relative;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container a {
+	width:570px;
+	height:270px;
+	display:block;
+}
+/* d-catlog */
+.d-catlog {
+	border: 1px solid #ccc;
+	padding: 10px 10px;
+	width: 216px;
+	margin-bottom: 10px;
+}
+
+.d-catlog h2 {
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom: 1px dashed #ccc;
+	padding: 0 0 5px 15px;
+}
+
+.d-catlog ol {
+	padding: 13px 18px 5px;
+	overflow: hidden;
+}
+
+.catlog-toggle ol {
+	height: 130px;
+}
+
+.d-catlog ol li {
+	list-style: decimal inside none;
+	line-height: 23px;
+}
+
+.d-catlog li a:link, .d-catlog li a:active, .d-catlog li a:visited {
+	color: #0000FF;
+	text-decoration: underline;
+}
+
+.d-catlog span.more {
+	display: block;
+	text-align: right;
+	padding-right: 5px;
+}
+
+.d-catlog span.more a:link, .d-catlog span.more a:active, .d-catlog span.more a:visited {
+	color: #0000FF;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+.d-catlog span.more a:hover {
+	text-decoration: underline;
+}
+
+.d-catlog span.more b {
+	display: inline-block;
+    height:0;
+    width:0;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    border-color: transparent transparent #333 transparent;
+    border-style: dashed dashed solid dashed;
+    border-width:0 5px 6px 5px ;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+.d-section .section-title {
+	border: 1px solid #ccc;
+	background: #F7F7F7;
+	height: 29px;
+	line-height: 29px;
+	padding: 0 20px;
+}
+
+.d-section .section-title h2 {
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 1px;
+}
+
+.d-section .section-btn {
+	float: right;
+	padding-top: 1px;
+}
+
+.d-section .section-btn a {
+	display: inline-block;
+}
+
+.d-section .section-btn .btn-correct {
+	background: url(http://pages.basechem.org/img_v3/d_content_bg.png) no-repeat -24px 3px;
+	padding-left: 20px;
+}
+
+.d-section .section-content {
+	padding: 20px;
+	font-size: 14px;
+	margin-bottom: 10px;
+	line-height: 22px;
+}
+
+.d-section .section-content img {
+	vertical-align: middle;
+}
+
+.d-section a:link, .d-section a:active, .d-section a:visited {
+	color: #0000FF;
+}
+
+.d-section a:hover {
+	text-decoration: underline;
+}
+.d-section .section-title h2.d-gtitle {
+	padding-top: 15px;
+	margin-top: -15px;
+	font-size: 12px;
+}

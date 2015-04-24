@@ -1,0 +1,324 @@
+[ 2015-04-13T09:18:30+08:00 ] ::1 /ChemicalManage/Web/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T10:26:51+08:00 ] ::1 /ChemicalManage/Web/Web/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T10:26:51+08:00 ] ::1 /ChemicalManage/Web/Web/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T10:28:03+08:00 ] ::1 /ChemicalManage/Web/Web/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T10:28:03+08:00 ] ::1 /ChemicalManage/Web/Web/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T10:28:28+08:00 ] ::1 /ChemicalManage/Web/Web/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T10:28:28+08:00 ] ::1 /ChemicalManage/Web/Web/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T10:28:45+08:00 ] ::1 /ChemicalManage/Web/Web/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T10:28:45+08:00 ] ::1 /ChemicalManage/Web/Web/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T10:28:48+08:00 ] ::1 /ChemicalManage/Web/Web/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T10:28:48+08:00 ] ::1 /ChemicalManage/Web/Web/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T10:47:17+08:00 ] ::1 /ChemicalManage/Web/Web/user/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T10:47:49+08:00 ] ::1 /ChemicalManage/Web/Web/user/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T11:02:08+08:00 ] ::1 /ChemicalManage/Web/Web/imgs/user/nav_bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T16:11:00+08:00 ] ::1 /ChemicalManage/Web/user/__URL__/index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T16:11:27+08:00 ] ::1 /ChemicalManage/Web/user/__APP__/index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T16:12:04+08:00 ] ::1 /ChemicalManage/Web/user/__URL__/Index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T16:16:37+08:00 ] ::1 /ChemicalManage/Web/user/__URL__/IndexController/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T16:17:45+08:00 ] ::1 /ChemicalManage/Web/user/%7B$APP_PATH%7D/IndexController/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T16:18:18+08:00 ] ::1 /ChemicalManage/Web/user/%7B$APP_PATH%7D/IndexController/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T16:21:26+08:00 ] ::1 /ChemicalManage/Web/user/__APP__/IndexController/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T16:22:34+08:00 ] ::1 /ChemicalManage/Web/user/__APP__/Index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T16:23:04+08:00 ] ::1 /ChemicalManage/Web/user/__URL__/Index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T16:30:58+08:00 ] ::1 /ChemicalManage/Web/user/__ROOT__/Index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T16:47:37+08:00 ] ::1 /ChemicalManage/Web/user/__APP__/Index/search?search_key=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T16:50:29+08:00 ] ::1 /ChemicalManage/Web/user/__URL__/Index/search?search_key=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T16:57:30+08:00 ] ::1 /ChemicalManage/Web/user/__URL__/Index/search?search_key=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T16:57:56+08:00 ] ::1 /ChemicalManage/Web/Index/search?search_key=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T16:58:57+08:00 ] ::1 /ChemicalManage/Web/user/__URL__/Index/search?search_key=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T17:04:26+08:00 ] ::1 /ChemicalManage/Web/index/search?search_key=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T17:04:46+08:00 ] ::1 /ChemicalManage/Web/user/index/search?search_key=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T17:05:39+08:00 ] ::1 /ChemicalManage/Web/user/index/search?search_key=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Controller
+
+[ 2015-04-13T17:13:34+08:00 ] ::1 /ChemicalManage/Web/App/Home/Controller/IndexController.class.php/search?search_key=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T17:13:46+08:00 ] ::1 /ChemicalManage/Web/App/Home/Controller/IndexController.class.php/search?search_key=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T17:28:17+08:00 ] ::1 /ChemicalManage/Web/App/Home/Controller/IndexController.class.php/search?search_key=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T19:14:03+08:00 ] ::1 /ChemicalManage/Web/user/__PUBLIC__/home/Index/search?search_key=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T22:14:12+08:00 ] ::1 /ChemicalManage/Web/user/__PUBLIC__/home/Index/search?search_key=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T22:33:20+08:00 ] ::1 /ChemicalManage/Web/user/__CONTROLLER__/Index/search?search_key=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T22:42:14+08:00 ] ::1 /ChemicalManage/index.php/search?search_key=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Search
+
+[ 2015-04-13T22:44:56+08:00 ] ::1 /ChemicalManage/index.php/Web/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T22:44:56+08:00 ] ::1 /ChemicalManage/index.php/Web/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T22:44:56+08:00 ] ::1 /ChemicalManage/index.php/Web/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T22:44:56+08:00 ] ::1 /ChemicalManage/index.php/Web/css/user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Web
+
+[ 2015-04-13T22:57:49+08:00 ] ::1 /ChemicalManage/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Css
+
+[ 2015-04-13T23:00:38+08:00 ] ::1 /ChemicalManage/__ROOT_/Web/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:__ROOT_
+
+[ 2015-04-13T23:00:38+08:00 ] ::1 /ChemicalManage/__ROOT_/Web/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:__ROOT_
+
+[ 2015-04-13T23:00:38+08:00 ] ::1 /ChemicalManage/__ROOT_/Web/css/user.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:__ROOT_
+
+[ 2015-04-13T23:00:38+08:00 ] ::1 /ChemicalManage/__ROOT_/Web/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:__ROOT_
+
+[ 2015-04-13T23:11:00+08:00 ] ::1 /ChemicalManage//index.php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-04-13T23:11:51+08:00 ] ::1 /ChemicalManage//index.phpindex.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index.phpindex
+
+[ 2015-04-13T23:12:12+08:00 ] ::1 /ChemicalManage//index.php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-04-13T23:12:36+08:00 ] ::1 /ChemicalManage//index.php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-04-13T23:13:12+08:00 ] ::1 /ChemicalManage//index.php/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Index
+
+[ 2015-04-13T23:25:26+08:00 ] ::1 /ChemicalManage/Web/user/chemicalSearch.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Web
+

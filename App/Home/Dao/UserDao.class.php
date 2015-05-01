@@ -13,8 +13,7 @@ class UserDao extends Model {
 	public function querySingleById($userId) {
 	     
 		$result = null;
-		$conditon['id'] = $userId;
-		$conditon['type']="normal";
+		$condition="id='".$userId ."' and type='normal'";
 		$res = $this->queryList($condition);
 		if (count($res) != 0) {
 			$result = $res[0];
@@ -38,6 +37,16 @@ class UserDao extends Model {
 		return $result;
 	}
 
+	public function insertSingle($user) {
+	    $result = 0;
+	    if ($user) {
+	        $data['id'] = $user->userid;
+	        $data['password'] = $user->password;
+	        $data['type'] = $user->type;
+	        $result=$this->model->add($data);
+	    }
+	    return $result;
+	}
 
 }
 ?>

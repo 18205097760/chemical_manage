@@ -13,8 +13,7 @@ class UserDao extends Model {
 	public function querySingleById($userId) {
 	     
 		$result = null;
-		$conditon['id'] = $userId;
-		$conditon['type']="admin";
+		$condition="id='".$userId."' and type='admin'";
 		$res = $this->queryList($condition);
 		if (count($res) != 0) {
 			$result = $res[0];

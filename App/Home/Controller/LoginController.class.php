@@ -27,6 +27,7 @@ class LoginController extends Controller
             $this->redirect($this->indexUrl, 2);
         } else 
             if (is_null($_POST['name']) || is_null($_POST['password'])) {
+                unset($_SESSION['loginError']);
                 $this->display("Login:login");
             } else {
                 $name = $_POST['name'];
@@ -34,6 +35,7 @@ class LoginController extends Controller
                 
                 $user = $this->userDao->querySingleById($name);
                 if ($user->password == $password) {
+                    unset($_SESSION['loginError']);
                     $_SESSION['user'] = true;
                     $this->redirect($this->indexUrl, 2);
                 } else {

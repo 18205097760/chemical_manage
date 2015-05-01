@@ -1,0 +1,764 @@
+[ 2015-04-28T10:47:49+08:00 ] ::1 /chemical_manage/index.php/Admin/Test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 8 行.
+
+[ 2015-04-28T10:48:32+08:00 ] ::1 /chemical_manage/index.php/Admin/Test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 8 行.
+
+[ 2015-04-28T10:49:38+08:00 ] ::1 /chemical_manage/index.php/Admin/Test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 8 行.
+NOTIC: [8] Undefined variable: chemicalDao F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 18 行.
+
+[ 2015-04-28T10:50:57+08:00 ] ::1 /chemical_manage/index.php/Admin/Test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 8 行.
+
+[ 2015-04-28T10:54:00+08:00 ] ::1 /chemical_manage/index.php/Admin/Test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 8 行.
+
+[ 2015-04-28T10:55:39+08:00 ] ::1 /chemical_manage/index.php/Admin/Test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 8 行.
+
+[ 2015-04-28T10:55:42+08:00 ] ::1 /chemical_manage/index.php/Admin/Test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 8 行.
+
+[ 2015-04-28T10:55:43+08:00 ] ::1 /chemical_manage/index.php/Admin/Test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 8 行.
+
+[ 2015-04-28T10:55:44+08:00 ] ::1 /chemical_manage/index.php/Admin/Test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 8 行.
+
+[ 2015-04-28T10:55:44+08:00 ] ::1 /chemical_manage/index.php/Admin/Test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 8 行.
+
+[ 2015-04-28T10:56:16+08:00 ] ::1 /chemical_manage/index.php/Admin/Test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 8 行.
+
+[ 2015-04-28T10:56:18+08:00 ] ::1 /chemical_manage/index.php/Admin/Test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 8 行.
+
+[ 2015-04-28T10:56:19+08:00 ] ::1 /chemical_manage/index.php/Admin/Test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 8 行.
+
+[ 2015-04-28T10:56:22+08:00 ] ::1 /chemical_manage/index.php/Admin/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 8 行.
+
+[ 2015-04-28T11:01:23+08:00 ] ::1 /chemical_manage/index.php/Admin/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 8 行.
+
+[ 2015-04-28T11:01:25+08:00 ] ::1 /chemical_manage/index.php/Admin/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 8 行.
+
+[ 2015-04-28T11:01:26+08:00 ] ::1 /chemical_manage/index.php/Admin/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 8 行.
+
+[ 2015-04-28T11:01:26+08:00 ] ::1 /chemical_manage/index.php/Admin/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 8 行.
+
+[ 2015-04-28T11:01:26+08:00 ] ::1 /chemical_manage/index.php/Admin/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 8 行.
+
+[ 2015-04-28T11:01:26+08:00 ] ::1 /chemical_manage/index.php/Admin/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 8 行.
+
+[ 2015-04-28T11:01:26+08:00 ] ::1 /chemical_manage/index.php/Admin/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 8 行.
+
+[ 2015-04-28T11:01:56+08:00 ] ::1 /chemical_manage/index.php/Admin/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+
+[ 2015-04-28T11:01:58+08:00 ] ::1 /chemical_manage/index.php/Admin/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+
+[ 2015-04-28T11:01:58+08:00 ] ::1 /chemical_manage/index.php/Admin/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+
+[ 2015-04-28T11:01:58+08:00 ] ::1 /chemical_manage/index.php/Admin/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+
+[ 2015-04-28T11:02:27+08:00 ] ::1 /chemical_manage/index.php/Admin/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+
+[ 2015-04-28T11:02:29+08:00 ] ::1 /chemical_manage/index.php/Admin/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+
+[ 2015-04-28T11:02:29+08:00 ] ::1 /chemical_manage/index.php/Admin/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+
+[ 2015-04-28T11:02:29+08:00 ] ::1 /chemical_manage/index.php/Admin/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+
+[ 2015-04-28T11:02:30+08:00 ] ::1 /chemical_manage/index.php/Admin/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+
+[ 2015-04-28T11:02:36+08:00 ] ::1 /chemical_manage/index.php/Admin/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+
+[ 2015-04-28T11:03:48+08:00 ] ::1 /chemical_manage/index.php/Admin/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-28T11:04:00+08:00 ] ::1 /chemical_manage/index.php/Admin/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `chemicals` WHERE `id` = 1  [ RunTime:0.0570s ]
+
+[ 2015-04-28T11:05:45+08:00 ] ::1 /chemical_manage/index.php/Admin/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `chemicals` WHERE `id` = 1  [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: CAS_registry_number F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Dao\ChemicalDao.class.php 第 41 行.
+NOTIC: [8] Undefined variable: name_cn F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 24 行.
+
+[ 2015-04-28T11:06:07+08:00 ] ::1 /chemical_manage/index.php/Admin/Test/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0350s ]
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `chemicals` WHERE `id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: CAS_registry_number F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Dao\ChemicalDao.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-28T19:45:53+08:00 ] ::1 /chemical_manage/index.php/Admin/Test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `chemicals` WHERE `id` = 1  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: CAS_registry_number F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Dao\ChemicalDao.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-28T19:46:17+08:00 ] ::1 /chemical_manage/index.php/Admin/a.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:A.html
+
+[ 2015-04-28T19:46:42+08:00 ] ::1 /chemical_manage/index.php/Admin/View/a.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:View
+
+[ 2015-04-28T19:47:25+08:00 ] ::1 /chemical_manage/Admin/chemicalDetail.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0080s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'environment.chemical_refer' doesn't exist
+
+[ 2015-04-28T19:48:16+08:00 ] ::1 /chemical_manage/Admin/dangerHighChemicalphp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:DangerHighChemicalphp
+
+[ 2015-04-28T19:55:11+08:00 ] ::1 /chemical_manage/index.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Index.html
+
+[ 2015-04-28T19:55:19+08:00 ] ::1 /chemical_manage/index.php/Admin/public/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2015-04-28T20:08:44+08:00 ] ::1 /chemical_manage/index.php/Admin/Test/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-28T20:13:22+08:00 ] ::1 /chemical_manage/index.php/Admin/test/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-28T20:13:29+08:00 ] ::1 /chemical_manage/index.php/Admin/tEsT/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:TEsT
+
+[ 2015-04-28T20:13:37+08:00 ] ::1 /chemical_manage/index.php/Admin/test/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-28T20:19:48+08:00 ] ::1 /chemical_manage/index.php/Admin/Test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `chemicals` WHERE `id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: CAS_registry_number F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Dao\ChemicalDao.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-28T20:21:12+08:00 ] ::1 /chemical_manage/index.php/Admin/Test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `chemicals` WHERE `id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: CAS_registry_number F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Dao\ChemicalDao.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-28T20:33:00+08:00 ] ::1 /chemical_manage/index.php/Admin/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `chemicals` WHERE `id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: CAS_registry_number F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Dao\ChemicalDao.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-04-28T20:49:31+08:00 ] ::1 /chemical_manage/index.php/Admin/Test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `chemicals` WHERE `id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: CAS_registry_number F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Dao\ChemicalDao.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-28T21:02:57+08:00 ] ::1 /chemical_manage/index.php/Admin/Test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `chemicals` WHERE `id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: CAS_registry_number F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Dao\ChemicalDao.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-28T21:19:25+08:00 ] ::1 /chemical_manage/index.php/Admin/Test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\TestController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `chemicals` WHERE `id` = 1  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: CAS_registry_number F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Dao\ChemicalDao.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-28T21:19:50+08:00 ] ::1 /chemical_manage/index.php/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Login
+
+[ 2015-04-28T21:20:04+08:00 ] ::1 /chemical_manage/index.php/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-28T21:22:01+08:00 ] ::1 /chemical_manage/index.php/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-28T21:31:32+08:00 ] ::1 /chemical_manage/index.php/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-28T21:31:49+08:00 ] ::1 /chemical_manage/index.php/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-28T21:31:52+08:00 ] ::1 /chemical_manage/index.php/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-28T21:32:03+08:00 ] ::1 /chemical_manage/index.php/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-28T21:32:18+08:00 ] ::1 /chemical_manage/index.php/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-28T21:34:19+08:00 ] ::1 /chemical_manage/index.php/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\LoginController.class.php 第 8 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-28T21:35:12+08:00 ] ::1 /chemical_manage/index.php/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\LoginController.class.php 第 8 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-28T21:35:17+08:00 ] ::1 /chemical_manage/index.php/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\LoginController.class.php 第 8 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-28T21:38:38+08:00 ] ::1 /chemical_manage/index.php/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\LoginController.class.php 第 8 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-28T21:39:02+08:00 ] ::1 /chemical_manage/index.php/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\LoginController.class.php 第 8 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-28T21:41:48+08:00 ] ::1 /chemical_manage/index.php/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\LoginController.class.php 第 8 行.
+NOTIC: [8] Undefined index: name F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\LoginController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-28T21:58:31+08:00 ] ::1 /chemical_manage/index.php/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: name F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\LoginController.class.php 第 8 行.
+NOTIC: [8] Undefined index: password F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\LoginController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-04-28T21:58:35+08:00 ] ::1 /chemical_manage/index.php/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\LoginController.class.php 第 8 行.
+NOTIC: [8] Undefined index: password F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\LoginController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-28T22:02:34+08:00 ] ::1 /chemical_manage/index.php/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: name F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\LoginController.class.php 第 8 行.
+NOTIC: [8] Undefined index: password F:\Program Files (x86)\xampp\htdocs\chemical_manage\App\Admin\Controller\LoginController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-04-28T22:02:50+08:00 ] ::1 /chemical_manage/index.php/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

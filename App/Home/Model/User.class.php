@@ -1,6 +1,6 @@
 <?php
 namespace Home \ Model;
-class User extends BasicClass {
+class User {
 	/**
 	 * 用户ID
 	 */
@@ -14,8 +14,8 @@ class User extends BasicClass {
 	 */
 	public $password = "";
 	/**
-	 * 用户级别
+	 * 用户类型
 	 */
-	public $user_level = 1;
+	public $type = 1;
 }
 ?>

@@ -1,0 +1,14 @@
+[ 2015-04-28T20:03:14+08:00 ] ::1 /chemical_manage/index.php/home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `chemicals` [ RunTime:0.0040s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'environment.chemical_refer' doesn't exist
+

@@ -4,22 +4,24 @@ use Think \ Controller;
 use Home \ Controller \ ChemicalSearchController;
 use Home \ Dao \ ChemicalBasicDao;
 use Home \ Dao \ DangerLevelDao;
-class IndexController extends Controller {
+class IndexController extends BaseController {
 	private static $chBasicDao;
 	private static $danLevelDao;
 	private static $displayNum;
 	private static $cControl;
 	function __construct() {
 		parent :: __construct();
-		$this->chBasicDao = new ChemicalBasicDao();
-		$this->danLevelDao = new DangerLevelDao();
-		$this->displayNum = 10;
-		$this->cControl=new ChemicalSearchController();
+		echo(" home : index ");
+// 		$this->chBasicDao = new ChemicalBasicDao();
+// 		$this->danLevelDao = new DangerLevelDao();
+// 		$this->displayNum = 10;
+// 		$this->cControl=new ChemicalSearchController();
 	}
 	public function index() {
+	    echo(" index:index ");
 		//$this->redirect('../Bootstrap/index');
-		$_SESSION["index_chBasics_danLevel"]=$this->getChBasicByDangerLevel();
-		$this->display("Index:index");
+// 		$_SESSION["index_chBasics_danLevel"]=$this->getChBasicByDangerLevel();
+// 		$this->display("Index:index");
 	}
 	public function search($search_key = "") {
 		$this->cControl->search($search_key);

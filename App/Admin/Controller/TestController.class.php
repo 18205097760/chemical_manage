@@ -22,13 +22,16 @@ class TestController extends BaseController
 
     function index()
     {
-        $this->display("User:chemicalDetail");
+//         $this->display("User:chemicalDetail");
         echo ("index");
         echo ("<br />");
         $model=$this->chemicalDao->querySingleById("1");
         echo($model->name_cn);
         echo("<br />");
         echo($model->name_en);
+        echo("<br />");
+        echo ("<img src=\"".__ROOT__."/index.php/Admin/img.php?image_id=1\"");
+        
         echo("<br />");
         echo($model->cas_no);
     }

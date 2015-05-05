@@ -1,8 +1,6 @@
 eclipse.preferences.version=1
 encoding//App/Common/Conf/config.php=UTF-8
 encoding//App/Home/Conf/config.php=UTF-8
-encoding//App/Home/Model/ChemicalBasic.class.php=UTF-8
-encoding//App/Home/Model/ReferDb.class.php=UTF-8
 encoding//App/Home/View/Index/index.php=UTF-8
 encoding//App/Home/View/User/chemicalDetail.php=UTF-8
 encoding//App/Home/View/User/chemicalSearch.php=UTF-8

@@ -75,7 +75,7 @@
 		</div>
 		<div class="head_text col-md-5 col-md-offset-3">
 			<form class="" role="search" style="margin-top: 15px;"
-				action="/chemical_manage/index.php/Home/chemical/search">
+				action="/chemical_manage/index.php/Admin/chemical/search">
 				<div class="input-group">
 					<input type="text" class="form-control" placeholder="中文名/英文名/CAS号"
 						name="kwd"> <span class="input-group-btn"> <input

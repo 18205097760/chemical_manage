@@ -1,8 +1,8 @@
 <?php
-namespace Home\Controller;
+namespace Admin\Controller;
 
 use Think\Controller;
-use Home\Dao\ChemicalDao;
+use Admin\Dao\ChemicalDao;
 
 class ExportController extends BaseController
 {

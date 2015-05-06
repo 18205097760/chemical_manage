@@ -1,8 +1,8 @@
 <?php
-namespace Admin\Controller;
+namespace Home\Controller;
 
 use Think\Controller;
-use Admin\Dao\ImgDao;
+use Home\Dao\ImgDao;
 
 class ImgController extends BaseController
 {

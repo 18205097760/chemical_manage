@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
@@ -8,11 +8,11 @@
 <title>化学品搜索结果</title>
 
 <!-- Bootstrap -->
-<link href="/chemical_manage/Public/Bootstrap/css/bootstrap.min.css"
+<link href="__ROOT__/Public/Bootstrap/css/bootstrap.min.css"
 	rel="stylesheet">
 
 <!-- Out -->
-<link href="/chemical_manage/Public/Bootstrap/css/style.css" rel="stylesheet">
+<link href="__ROOT__/Public/Bootstrap/css/style.css" rel="stylesheet">
 
 <style>
 .a {
@@ -60,14 +60,14 @@
 		<div class="container">
 		<div class="row">
 			<div class="logo col-xs-6 col-sm-5 col-md-3">
-				<img src="/chemical_manage/Public/Bootstrap/imgs
+				<img src="__ROOT__/Public/Bootstrap/imgs
 				/a.png"
 					alt="Nanjing University" style="height: 55px">
 			</div>
 			<div class="col-xs-0 col-sm-2 col-md-5"></div>
 			<div class="logo col-xs-6 col-sm-5 col-md-4">
 				<form class="" role="search" style="margin-top: 15px;"
-					action="/chemical_manage/index.php/Home/chemical/search">
+					action="__ROOT__/index.php/Admin/chemical/search">
 					<div class="input-group">
 						<input type="text" class="form-control" placeholder="中文名/英文名/CAS号"
 							name="kwd"> <span class="input-group-btn"> <input
@@ -82,7 +82,31 @@
 
 	<div class="container">
       		<?php
- $data = $_SESSION['search']; if (empty($data)) { echo "<div class=\"head_text\"><h3>无搜索结果</h3></div>"; } else { echo "<div class=\"head_text col-md-10\"><h3>搜索结果展示：</h3></div><div class=\"head_text col-md-2\">"; echo "<a href=\"/chemical_manage/index.php/Home/export?kwd=" . $_SESSION['kwd'] . "\" class=\"btn btn-primary btn-block\" style=\"margin-top:10px;\">导出结果</a></div>"; echo "<div class=\"list-container col-md-12\" style=\"margin-top:30px;\">"; $length = count($data); for ($x = 0; $x < $length; $x ++) { $img="/chemical_manage/index.php/Home/img.php?image_id=" . $data[$x]->id; echo "<div class=\"item-comtainer col-xs-6 col-sm-4 col-md-3\"><div class=\"box\"><img src=\"/chemical_manage/index.php/Home/img.php?image_id=" . $data[$x]->id . "\"></div>"; if (! is_null($data[$x]->name_zh)) { echo "<a href=\" \"><h4>" . $data[$x]->name_zh . "</h4></a>"; } else { echo "<a href=\" \"><h4>暂无中文名</h4></a>"; } if (! is_null($data[$x]->molecular_formula)) { echo "<h4>" . $data[$x]->molecular_formula . "</h4></div>"; } else { echo ("<h4>暂无分子式</h4></div>"); } } echo "</div>"; } ?>
+        $data = $_SESSION['search'];
+        if (empty($data)) {
+            echo "<div class=\"head_text\"><h3>无搜索结果</h3></div>";
+        } else {
+            echo "<div class=\"head_text col-md-10\"><h3>搜索结果展示：</h3></div><div class=\"head_text col-md-2\">";
+            echo "<a href=\"__ROOT__/index.php/Admin/export?kwd=" . $_SESSION['kwd'] . "\" class=\"btn btn-primary btn-block\" style=\"margin-top:10px;\">导出结果</a></div>";
+            echo "<div class=\"list-container col-md-12\" style=\"margin-top:30px;\">";
+            $length = count($data);
+            for ($x = 0; $x < $length; $x ++) {
+                $img="__ROOT__/index.php/Home/img.php?image_id=" . $data[$x]->id;
+                echo "<div class=\"item-comtainer col-xs-6 col-sm-4 col-md-3\"><div class=\"box\"><img src=\"__ROOT__/index.php/Admin/img.php?image_id=" . $data[$x]->id . "\"></div>";
+                if (! is_null($data[$x]->name_zh)) {
+                    echo "<a href=\" \"><h4>" . $data[$x]->name_zh . "</h4></a>";
+                } else {
+                    echo "<a href=\" \"><h4>暂无中文名</h4></a>";
+                }
+                if (! is_null($data[$x]->molecular_formula)) {
+                    echo "<h4>" . $data[$x]->molecular_formula . "</h4></div>";
+                } else {
+                    echo ("<h4>暂无分子式</h4></div>");
+                }
+            }
+            echo "</div>";
+        }
+        ?>
             
 
 	</div>
@@ -90,6 +114,6 @@
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="/chemical_manage/Public/Bootstrap/js/bootstrap.min.js"></script>
+	<script src="__ROOT__/Public/Bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

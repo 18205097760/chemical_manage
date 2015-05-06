@@ -5,7 +5,7 @@
 	require_once 'PHPExcel_1.8.0_doc/Classes/PHPExcel/Reader/Excel2007.php';
 	
 	function output($data) {
-		$filePath = 'example.xlsx';
+		$filePath = 'Public/excel/example.xlsx';
 		
 		$PHPExcel = new PHPExcel ();
 		

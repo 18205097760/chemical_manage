@@ -37,11 +37,7 @@ class LoginController extends Controller
                 $user = $this->userDao->querySingleById($name);
                 if ($user->password == $password) {
                     $_SESSION['admin'] = true;
-//                     if(isset($_SESSION['admin'])){
-//                         echo("set session admin<br />");
-//                         echo($this->indexUrl);
-//                     }
-                    redirect($this->indexUrl, 2);
+                    redirect($this->indexUrl);
                 } else {
                     $_SESSION['loginError'] = true;
                     $this->display("Login:login");

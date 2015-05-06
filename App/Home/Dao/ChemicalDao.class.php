@@ -31,7 +31,6 @@ class ChemicalDao extends Model
     public function queryListByKwd($kwd, $start = 0, $num = 0)
     {
         $condition = "name_zh like '%" . $kwd . "%' or " . "name_en like '%" . $kwd . "%' or " . "CAS_registry_number like '%" . $kwd . "%' ";
-        echo (" condition:" . $condition);
         return $this->queryList($condition, $start, $num);
     }
 

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <title>Bootstrap 101 Template</title>
+    <title>管理员登录</title>
 
     <!-- Bootstrap -->
     <link href="__ROOT__/Public/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -75,7 +75,6 @@
                 <input type="submit" class="fbtn blue" />
                <!--  <button id="submit" class="fbtn blue" onClick="location.href='../index.php/Admin/login'">登录</button> -->
                 </form>
-                  <button id="reg" class="btn-danger fbtn" style="background-color:transparent" onClick="location.href='http://www.flash8.net'">注册新用户</button>
 			</div>
 </form>
             <div id="video" class="col-sm-7">

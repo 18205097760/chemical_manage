@@ -1,7 +1,7 @@
 <?php
-namespace Home\Controller;
+namespace Admin\Controller;
 
-use Home\Dao\ChemicalDao;
+use Admin\Dao\ChemicalDao;
 
 class ChemicalController extends BaseController
 {

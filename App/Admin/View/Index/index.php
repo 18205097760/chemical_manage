@@ -1,103 +1,100 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="zh_CN" xml:lang="zh_CN">
- <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>化学品管理系统</title>
-   <link href="__ROOT__/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
-   <link href="__ROOT__/Bootstrap/css/user.css" rel="stylesheet">
-   <script src="__ROOT__/Bootstrap/js/jquery.min.js"></script>
-   <script src="__ROOT__/Bootstrap/js/bootstrap.min.js"></script>
- </head>
- <body>
- <div class="center">
-    <div class="header">
-	   <div class="intro clearfix">
-		  <h1 class="logo"><a href="__MODULE__/index.php" title="化学品数据">化学品数据</a></h1>
-	   </div>
-	   <div class="nav">
-		  <ul class="clearfix">
-			<li class="current"><a href="__MODULE__/index.php"><b>首页</b></a></li>
-			<li class=""><a href="__MODULE__/chemicalSearch.php"><b>化学品</b></a></li>
-		  </ul>
-	   </div>
-    </div>
-    <!-- 搜索区域 -->
-	<div class="search" align="center">
-	   <form method="get" action="__CONTROLLER__/search" class="bs-example bs-example-form" role="form">
-	       <div class="col-lg-6">
-               <div class="input-group input-group-lg" >
-                  <input type="text" class="form-control" id="search_key" name="search_key" placeholder="化学品的中文名、英文名或CAS号" >
-                  <span class="input-group-btn">
-                      <button class="btn btn-default" type="submit">搜索</button>
-                  </span>
-               </div>
-           </div>
-       </form>
-    </div>
-    <?php 
-    $chBasics_danLevel=$_SESSION["index_chBasics_danLevel"];
-    $_SESSION["index_chBasics_danLevel"]=null;
-    ?>
-    <!-- 化学品分类模块 -->
-	<div class="grid-wrap clearfix" align="center" >
-		<div class="grid-main product">
-			<s class="tl"></s><s class="tr"></s>
-			<div class="product-wrap">
-			<ul class="product-rank clearfix">
-				<li class="rank-item">
-					<h3 class="clearfix"><b>重危化学品</b><a href="/hot/" class="more" onClick="_gaq.push(['_trackEvent', 'hot_chemical', 'more' ]);">更多</a></h3>
-					<ol>
-					<?php
-					$hDans=$chBasics_danLevel['1'];
-					$len=count($hDans);
-					for($i=0;$i<$len;$i++){
-						$hDan=$hDans[$i];
-					
-					 ?>
-						<li><a href="__MODULE__/chemicalDetail.php/{$hDan->chemical_id}" target="_blank">{$hDan->name_cn}</a></li>
-					<?php 
-					}
-					?>					
-					</ol>
-				</li>
-				<li class="rank-item">
-					<h3 class="clearfix"><b>危险化学品</b><a href="/popular/" class="more" onClick="_gaq.push(['_trackEvent', 'attention_chemical', 'more' ]);">更多</a></h3>
-					<ol>
-					<?php
-					$lDans=$chBasics_danLevel['2'];
-					$len=count($lDans);
-					for($i=0;$i<$len;$i++){
-						$lDan=$lDans[$i];
-					
-					 ?>
-						<li><a href="__MODULE__/chemicalDetail.php/{$lDan->chemical_id}" target="_blank">{$lDan->name_cn}</a></li>
-					<?php 
-					}
-					?>	
-					</ol>
-				</li>
-				<li class="rank-item">
-					<h3 class="clearfix"><b>非危化学品</b><a href="/common/" class="more" onClick="_gaq.push(['_trackEvent', 'common_chemical', 'more' ]);">更多</a></h3>
-					<ol>
-					<?php
-					$nDans=$chBasics_danLevel['3'];
-					$len=count($nDans);
-					for($i=0;$i<$len;$i++){
-						$nDan=$nDans[$i];
-					
-					 ?>
-						<li><a href="__MODULE__/chemicalDetail.php/{$nDan->chemical_id}" target="_blank">{$nDan->name_cn}</a></li>
-					<?php 
-					}
-					?>	
-					</ol>
-				</li>
-			  </ul>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+<title>首页</title>
+
+<!-- Bootstrap -->
+<link href="__ROOT__/Public/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Out -->
+<link href="__ROOT__/Public/Bootstrap/css/style.css" rel="stylesheet">
+
+<style>
+.a {
+	color: #2C3E50;
+	text-decoration: none;
+}
+
+.container h1,.container h3,.container h4 {
+	font-family: 楷体, "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑,
+		STHeiti, MingLiu;
+	color: #fff;
+}
+
+.box {
+	width: 100%;
+	height: 0;
+	padding-bottom: 66%;
+	overflow: hidden;
+	border-radius: 5px;
+	background-color: #FFF;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, .35);
+}
+
+.list-container img {
+	width: 100%;
+	height: 100%;
+}
+
+.list-container h4 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+</style>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<div class="navbar">
+		<div class="container">
+			<div class="row">
+				<div class="logo col-xs-6 col-sm-5 col-md-3">
+					<img src="__ROOT__/Public/Bootstrap/imgs/a.png" alt="Nanjing University"
+						style="height: 55px">
+				</div>
+				<div class="col-xs-0 col-sm-2 col-md-5"></div>
+				<div class="logo col-xs-6 col-sm-5 col-md-4"></div>
 			</div>
-			<s class="bl"></s><s class="br"></s>
 		</div>
 	</div>
+
+	<div class="container">
+		
+		<div class="head_text col-md-4 col-md-offset-4"
+			style="margin-top: 60px; margin-bottom: 40px;">
+			<h3>输入搜索条件</h3>
+		</div>
+		<div class="head_text col-md-5 col-md-offset-3">
+			<form class="" role="search" style="margin-top: 15px;"
+				action="__ROOT__/index.php/Admin/chemical/search">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="中文名/英文名/CAS号"
+						name="kwd"> <span class="input-group-btn"> <input
+						class="btn btn-primary" type="submit">Search！</input>
+					</span>
+				</div>
+			</form>
+		</div>
+		<!--<div class="list-container col-md-12" style="margin-top:30px;">
+            	
+        
+
+            </div>-->
+
 	</div>
- </body>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="__ROOT__/Public/Bootstrap/js/bootstrap.min.js"></script>
+</body>
 </html>

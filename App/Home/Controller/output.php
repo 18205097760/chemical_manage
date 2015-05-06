@@ -5,14 +5,15 @@
 	require_once 'PHPExcel_1.8.0_doc/Classes/PHPExcel/Reader/Excel2007.php';
 	
 	function output($data) {
-// 		$filePath = 'F:/Program Files (x86)/xampp/htdocs/chemical_manage/Public/example.xlsx';
-		$filePath='example.xlsx';
+		$filePath = "Public/excel/example.xlsx";
+		echo $_SERVER['SCRIPT_FILENAME'];
 		$PHPExcel = new PHPExcel ();
 		
 		$PHPReader =PHPExcel_IOFactory::createReader('Excel2007'); 
 		$PHPExcel = $PHPReader->load ( $filePath );
 		
 		$num = count($data);
+		
 		$PHPExcel-> getActiveSheet () ->getStyle('A1:AQ1000')->getAlignment()->setWrapText(true);
 		for($i=0;$i< $num; $i++){
 			$j = $i+5;
@@ -22,7 +23,7 @@
 			$PHPExcel->getActiveSheet ()->setCellValue ( 'A'.$j, $data[$i]->id);
 			$PHPExcel->getActiveSheet ()->setCellValue ( 'B'.$j, $data[$i]->name_zh);
 			$PHPExcel->getActiveSheet ()->setCellValue ( 'C'.$j, $data[$i]->name_en);
-			
+
 			//分子式的处理（利用下标）
 			$molecular_f =  $data[$i]->molecular_formula;
 			$molecular_f = str_replace("</sub>",";", $molecular_f);
@@ -46,6 +47,7 @@
 			//图片处理
 			
 			//写到文件temp.png之中
+			
 			if($data[$i]->chemical_structure != null){
 				$fh = fopen("pic/pic_$i.png", "w");
 				fwrite($fh,  $data[$i]->chemical_structure);
@@ -119,7 +121,7 @@
 		
 		
 		$outputFileName = 'total.xlsx';
-		$objWriter = PHPExcel_IOFactory::createWriter($PHPExcel, 'Excel5');
+		$objWriter = PHPExcel_IOFactory::createWriter($PHPExcel, 'Excel2007');
 		header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');  
     	header('Cache-Control: max-age=0');  
 		header ( 'Content-Disposition:attachment;filename="total.xlsx"' );

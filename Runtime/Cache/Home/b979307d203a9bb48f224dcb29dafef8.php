@@ -40,6 +40,7 @@
 	width: 100%;
 	height: 100%;
 	min-height:132px;
+	vertical-align:middle;
 }
 
 .list-container h4 {
@@ -82,7 +83,7 @@
 
 	<div class="container">
       		<?php
- $data = $_SESSION['search']; if (empty($data)) { echo "<div class=\"head_text\"><h3>无搜索结果</h3></div>"; } else { echo "<div class=\"head_text col-md-10\"><h3>搜索结果展示：</h3></div><div class=\"head_text col-md-2\">"; echo "<a href=\"/chemical_manage/index.php/Home/export?kwd=" . $_SESSION['kwd'] . "\" class=\"btn btn-primary btn-block\" style=\"margin-top:10px;\">导出结果</a></div>"; echo "<div class=\"list-container col-md-12\" style=\"margin-top:30px;\">"; $length = count($data); for ($x = 0; $x < $length; $x ++) { $img="/chemical_manage/index.php/Home/img.php?image_id=" . $data[$x]->id; echo "<div class=\"item-comtainer col-xs-6 col-sm-4 col-md-3\"><div class=\"box\"><img src=\"/chemical_manage/index.php/Home/img.php?image_id=" . $data[$x]->id . "\"></div>"; if (! is_null($data[$x]->name_zh)) { echo "<a href=\" \"><h4>" . $data[$x]->name_zh . "</h4></a>"; } else { echo "<a href=\" \"><h4>暂无中文名</h4></a>"; } if (! is_null($data[$x]->molecular_formula)) { echo "<h4>" . $data[$x]->molecular_formula . "</h4></div>"; } else { echo ("<h4>暂无分子式</h4></div>"); } } echo "</div>"; } ?>
+ $data = $_SESSION['search']; if (empty($data)) { echo "<div class=\"head_text\"><h3>无搜索结果</h3></div>"; } else { echo "<div class=\"head_text col-md-10\"><h3>搜索结果展示：</h3></div><div class=\"head_text col-md-2\">"; echo "<a href=\"/chemical_manage/index.php/Home/export?kwd=" . $_SESSION['kwd'] . "\" class=\"btn btn-primary btn-block\" style=\"margin-top:10px;\">导出结果</a></div>"; echo "<div class=\"list-container col-md-12\" style=\"margin-top:30px;\">"; $length = count($data); for ($x = 0; $x < $length; $x ++) { $img="/chemical_manage/index.php/Home/img.php?image_id=" . $data[$x]->id; echo "<div class=\"item-comtainer col-xs-6 col-sm-4 col-md-3\"><div class=\"box\"><img src=\"/chemical_manage/index.php/Home/img.php?image_id=" . $data[$x]->id . "\"></div>"; if (! is_null($data[$x]->name_zh)) { echo "<a href=\"/chemical_manage/index.php/Home/chemical/detail?id=".$data[$x]->id."\"><h4>" . $data[$x]->name_zh . "</h4></a>"; } else { echo "<a href=\"/chemical_manage/index.php/Home/chemical/detail?id=".$data[$x]->id."\"><h4>暂无中文名</h4></a>"; } if (! is_null($data[$x]->molecular_formula)) { echo "<h4>" . $data[$x]->molecular_formula . "</h4></div>"; } else { echo ("<h4>暂无分子式</h4></div>"); } } echo "</div>"; } ?>
             
 
 	</div>

@@ -20,7 +20,7 @@ class ChemicalDao extends Model
     public function querySingleById($chId)
     {
         $result = null;
-        $condition['chemical_id'] = $chId;
+        $condition['id'] = $chId;
         $res = $this->queryList($condition);
         if (count($res) != 0) {
             $result = $res[0];

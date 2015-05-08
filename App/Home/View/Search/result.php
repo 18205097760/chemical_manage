@@ -40,6 +40,7 @@
 	width: 100%;
 	height: 100%;
 	min-height:132px;
+	vertical-align:middle;
 }
 
 .list-container h4 {
@@ -94,9 +95,9 @@
                 $img="__ROOT__/index.php/Home/img.php?image_id=" . $data[$x]->id;
                 echo "<div class=\"item-comtainer col-xs-6 col-sm-4 col-md-3\"><div class=\"box\"><img src=\"__ROOT__/index.php/Home/img.php?image_id=" . $data[$x]->id . "\"></div>";
                 if (! is_null($data[$x]->name_zh)) {
-                    echo "<a href=\" \"><h4>" . $data[$x]->name_zh . "</h4></a>";
+                    echo "<a href=\"__ROOT__/index.php/Home/chemical/detail?id=".$data[$x]->id."\"><h4>" . $data[$x]->name_zh . "</h4></a>";
                 } else {
-                    echo "<a href=\" \"><h4>暂无中文名</h4></a>";
+                    echo "<a href=\"__ROOT__/index.php/Home/chemical/detail?id=".$data[$x]->id."\"><h4>暂无中文名</h4></a>";
                 }
                 if (! is_null($data[$x]->molecular_formula)) {
                     echo "<h4>" . $data[$x]->molecular_formula . "</h4></div>";

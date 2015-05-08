@@ -23,14 +23,17 @@ class ChemicalController extends BaseController
     {
         $data = $this->dao->queryListByKwd($kwd);
         $_SESSION['search'] = $data;
-        $_SESSION['kwd']=$kwd;
+        $_SESSION['kwd'] = $kwd;
         $this->display("Search:result");
     }
-    
-    function detail($id=""){
-        $data=$this->dao->querySingleById($id);
-        $_SESSION['detail']=$data;
-        $this->display("Search:detail");
+
+    function detail($id = "")
+    {
+        if (! ($id === "")) {
+            $data = $this->dao->querySingleById($id);
+            $_SESSION['detail'] = $data;
+            $this->display("Search:detail");
+        }
     }
 }
 

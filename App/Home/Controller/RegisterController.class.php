@@ -7,9 +7,7 @@ use Home\Model\User;
 
 class RegisterController extends Controller
 {
-
     private $userDao;
-
     private $userModel;
 
     function __construct()
@@ -25,7 +23,7 @@ class RegisterController extends Controller
             $user = $this->userDao->querySingleById($_POST['name']);
             if ($user != null) {
                 $_SESSION['registerError'] = true;
-                $this->error("该用户已存在！","../../Public/register.php",2);
+                $this->error("该用户已存在！", "../../Public/register.php", 2);
             } else {
                 unset($_SESSION['registerError']);
                 $this->userModel->userid = $_POST['name'];

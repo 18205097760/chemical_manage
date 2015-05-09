@@ -6,7 +6,7 @@ class Chemical
     /**
      * 化学用品id
      */
-    public $id=-1;
+    public $id;
     
     /**
      * 中文名

@@ -54,7 +54,7 @@ class ChemicalDao extends Model
                 $chBasic->name_zh = $data[$i]['name_zh'];
                 $chBasic->name_en = $data[$i]['name_en'];
                 $chBasic->molecular_formula = $data[$i]['molecular_formula'];
-                // $chBasic->chemical_structure = $data[$i]['chemical_struct'];
+                $chBasic->chemical_structure = $data[$i]['chemical_structure'];
                 $chBasic->mol_wt = $data[$i]['molecular_weight'];
                 $chBasic->cas = $data[$i]['cas_registry_number'];
                 $chBasic->classify = $data[$i]['classification'];
@@ -103,7 +103,7 @@ class ChemicalDao extends Model
         $result = 0;
         if ($chBasic) {
             
-           $data=$this->model2data($chBasic);
+            $data = $this->model2data($chBasic);
             
             $result = $this->model->add($data);
         }
@@ -127,7 +127,7 @@ class ChemicalDao extends Model
     {
         $condition = "id=" . $chId;
         
-        return $this->model->delete($condition);
+        return $this->model->where($condition)->delete();
     }
 
     private function model2data($chBasic)
@@ -136,9 +136,9 @@ class ChemicalDao extends Model
         $data['name_zh'] = $chBasic->name_zh;
         $data['name_en'] = $chBasic->name_en;
         $data['molecular_formula'] = $chBasic->molecular_formula;
-        $data['chemical_struct'] = $chBasic->chemical_structure;
+        $data['chemical_structure'] = $chBasic->chemical_structure;
         $data['molecular_weight'] = $chBasic->mol_wt;
-        $data['cas_registry_number'] = $chBasic->cas;
+        $data['CAS_registry_number'] = $chBasic->cas;
         $data['classification'] = $chBasic->classify;
         $data['appearance'] = $chBasic->appearance;
         $data['fusion_point'] = $chBasic->fusion_p;

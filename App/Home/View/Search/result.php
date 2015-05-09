@@ -39,8 +39,8 @@
 .list-container img {
 	width: 100%;
 	height: 100%;
-	min-height:132px;
-	vertical-align:middle;
+	min-height: 132px;
+	vertical-align: middle;
 }
 
 .list-container h4 {
@@ -59,26 +59,35 @@
 <body>
 	<div class="navbar">
 		<div class="container">
-		<div class="row">
-			<div class="logo col-xs-6 col-sm-5 col-md-3">
-				<img src="__ROOT__/Public/Bootstrap/imgs
-				/a.png"
-					alt="Nanjing University" style="height: 55px">
+
+
+			<div class="row">
+				<div class="logo col-xs-6 col-sm-4 col-md-3">
+					<img src="__ROOT__/Public/Bootstrap/imgs/a.png"
+						alt="Nanjing University" style="height: 55px">
+				</div>
+				<div class="col-xs-0 col-sm-2 col-md-5"></div>
+				<div class="logo col-xs-6 col-sm-5 col-md-4">
+					<form class="" role="search" style="margin-top: 15px;"
+						action="__ROOT__/index.php/Home/chemical/search">
+						<div class="input-group">
+							<input type="text" class="form-control"
+								placeholder="中文名/英文名/CAS号" name="kwd"> <span
+								class="input-group-btn">
+								<button class="btn btn-primary" onclick="this.form.submit()">
+									Search!</button>
+							</span>
+						</div>
+					</form>
+				</div>
 			</div>
-			<div class="col-xs-0 col-sm-2 col-md-5"></div>
-			<div class="logo col-xs-6 col-sm-5 col-md-4">
-				<form class="" role="search" style="margin-top: 15px;"
-					action="__ROOT__/index.php/Home/chemical/search">
-					<div class="input-group">
-						<input type="text" class="form-control" placeholder="中文名/英文名/CAS号"
-							name="kwd"> <span class="input-group-btn"> <input
-							class="btn btn-primary" type="submit">Search！</input>
-						</span>
-					</div>
-				</form>
-			</div>
+
+
+
+
+
+
 		</div>
-	</div>
 	</div>
 
 	<div class="container">
@@ -92,12 +101,12 @@
             echo "<div class=\"list-container col-md-12\" style=\"margin-top:30px;\">";
             $length = count($data);
             for ($x = 0; $x < $length; $x ++) {
-                $img="__ROOT__/index.php/Home/img.php?image_id=" . $data[$x]->id;
+                $img = "__ROOT__/index.php/Home/img.php?image_id=" . $data[$x]->id;
                 echo "<div class=\"item-comtainer col-xs-6 col-sm-4 col-md-3\"><div class=\"box\"><img src=\"__ROOT__/index.php/Home/img.php?image_id=" . $data[$x]->id . "\"></div>";
                 if (! is_null($data[$x]->name_zh)) {
-                    echo "<a href=\"__ROOT__/index.php/Home/chemical/detail?id=".$data[$x]->id."\"><h4>" . $data[$x]->name_zh . "</h4></a>";
+                    echo "<a href=\"__ROOT__/index.php/Home/chemical/detail?id=" . $data[$x]->id . "\"><h4>" . $data[$x]->name_zh . "</h4></a>";
                 } else {
-                    echo "<a href=\"__ROOT__/index.php/Home/chemical/detail?id=".$data[$x]->id."\"><h4>暂无中文名</h4></a>";
+                    echo "<a href=\"__ROOT__/index.php/Home/chemical/detail?id=" . $data[$x]->id . "\"><h4>暂无中文名</h4></a>";
                 }
                 if (! is_null($data[$x]->molecular_formula)) {
                     echo "<h4>" . $data[$x]->molecular_formula . "</h4></div>";

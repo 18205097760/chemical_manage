@@ -8,7 +8,8 @@
 <title>首页</title>
 
 <!-- Bootstrap -->
-<link href="__ROOT__/Public/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="__ROOT__/Public/Bootstrap/css/bootstrap.min.css"
+	rel="stylesheet">
 
 <!-- Out -->
 <link href="__ROOT__/Public/Bootstrap/css/style.css" rel="stylesheet">
@@ -58,8 +59,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="logo col-xs-6 col-sm-5 col-md-3">
-					<img src="__ROOT__/Public/Bootstrap/imgs/a.png" alt="Nanjing University"
-						style="height: 55px">
+					<img src="__ROOT__/Public/Bootstrap/imgs/a.png"
+						alt="Nanjing University" style="height: 55px">
 				</div>
 				<div class="col-xs-0 col-sm-2 col-md-5"></div>
 				<div class="logo col-xs-6 col-sm-5 col-md-4"></div>
@@ -68,7 +69,7 @@
 	</div>
 
 	<div class="container">
-		
+
 		<div class="head_text col-md-4 col-md-offset-4"
 			style="margin-top: 60px; margin-bottom: 40px;">
 			<h3>输入搜索条件</h3>
@@ -78,11 +79,17 @@
 				action="__ROOT__/index.php/Admin/chemical/search">
 				<div class="input-group">
 					<input type="text" class="form-control" placeholder="中文名/英文名/CAS号"
-						name="kwd"> <span class="input-group-btn"> <input
-						class="btn btn-primary" type="submit">Search！</input>
+						name="kwd"> <span class="input-group-btn"> <button class="btn btn-primary" onclick="this.form.submit()">
+									搜索</button>
 					</span>
 				</div>
 			</form>
+		</div>
+
+		<div class="col-xs-2 col-sm-2 col-md-2">
+			<button class="btn btn-primary" style="margin-top: 15px;"
+				onclick="window.location.href='__ROOT__/index.php/Admin/chemical/add'">新增条目</button>
+
 		</div>
 		<!--<div class="list-container col-md-12" style="margin-top:30px;">
             	

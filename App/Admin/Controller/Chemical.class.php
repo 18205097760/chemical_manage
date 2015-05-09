@@ -74,7 +74,7 @@ class Chemical
     /**
      * 溶解性
      */
-    public $sulubleness;
+    public $solubleness;
     
     /**
      * 燃烧性

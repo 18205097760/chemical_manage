@@ -53,7 +53,7 @@ class ChemicalDao extends Model
                 $chBasic->name_zh = $data[$i]['name_zh'];
                 $chBasic->name_en = $data[$i]['name_en'];
                 $chBasic->molecular_formula = $data[$i]['molecular_formula'];
-                // $chBasic->chemical_structure = $data[$i]['chemical_struct'];
+                $chBasic->chemical_structure = $data[$i]['chemical_structure'];
                 $chBasic->mol_wt = $data[$i]['molecular_weight'];
                 $chBasic->cas = $data[$i]['cas_registry_number'];
                 $chBasic->classify = $data[$i]['classification'];

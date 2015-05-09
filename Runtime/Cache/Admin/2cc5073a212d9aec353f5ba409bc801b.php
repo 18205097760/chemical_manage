@@ -39,7 +39,7 @@
 .list-container img {
 	width: 100%;
 	height: 100%;
-	min-height:132px;
+	min-height: 132px;
 }
 
 .list-container h4 {
@@ -58,31 +58,41 @@
 <body>
 	<div class="navbar">
 		<div class="container">
-		<div class="row">
-			<div class="logo col-xs-6 col-sm-5 col-md-3">
-				<img src="/chemical_manage/Public/Bootstrap/imgs
-				/a.png"
-					alt="Nanjing University" style="height: 55px">
-			</div>
-			<div class="col-xs-0 col-sm-2 col-md-5"></div>
-			<div class="logo col-xs-6 col-sm-5 col-md-4">
-				<form class="" role="search" style="margin-top: 15px;"
-					action="/chemical_manage/index.php/Admin/chemical/search">
-					<div class="input-group">
-						<input type="text" class="form-control" placeholder="中文名/英文名/CAS号"
-							name="kwd"> <span class="input-group-btn"> <input
-							class="btn btn-primary" type="submit">Search！</input>
-						</span>
-					</div>
-				</form>
+
+			<div class="row">
+				<div class="logo col-xs-6 col-sm-4 col-md-3">
+					<img src="/chemical_manage/Public/Bootstrap/imgs/a.png"
+						alt="Nanjing University" style="height: 55px">
+				</div>
+				<div class="col-xs-0 col-sm-2 col-md-2"></div>
+
+				<div class="logo col-xs-4 col-sm-4 col-md-5">
+
+					<form class="" role="search" style="margin-top: 15px;"
+						action="/chemical_manage/index.php/Admin/chemical/search">
+						<div class="input-group">
+							<input type="text" class="form-control"
+								placeholder="中文名/英文名/CAS号" name="kwd"> <span
+								class="input-group-btn">
+								<button class="btn btn-primary" onclick="this.form.submit()">
+									搜索</button>
+
+							</span>
+						</div>
+					</form>
+				</div>
+
+				<div class="col-xs-2 col-sm-2 col-md-2">
+					<button class="btn btn-primary" style="margin-top: 15px;" onclick="window.location.href='/chemical_manage/index.php/Admin/chemical/add'">新增条目</button>
+
+				</div>
 			</div>
 		</div>
-	</div>
 	</div>
 
 	<div class="container">
       		<?php
- $data = $_SESSION['search']; if (empty($data)) { echo "<div class=\"head_text\"><h3>无搜索结果</h3></div>"; } else { echo "<div class=\"head_text col-md-10\"><h3>搜索结果展示：</h3></div><div class=\"head_text col-md-2\">"; echo "<a href=\"/chemical_manage/index.php/Admin/export?kwd=" . $_SESSION['kwd'] . "\" class=\"btn btn-primary btn-block\" style=\"margin-top:10px;\">导出结果</a></div>"; echo "<div class=\"list-container col-md-12\" style=\"margin-top:30px;\">"; $length = count($data); for ($x = 0; $x < $length; $x ++) { $img="/chemical_manage/index.php/Home/img.php?image_id=" . $data[$x]->id; echo "<div class=\"item-comtainer col-xs-6 col-sm-4 col-md-3\"><div class=\"box\"><img src=\"/chemical_manage/index.php/Admin/img.php?image_id=" . $data[$x]->id . "\"></div>"; if (! is_null($data[$x]->name_zh)) { echo "<a href=\" \"><h4>" . $data[$x]->name_zh . "</h4></a>"; } else { echo "<a href=\" \"><h4>暂无中文名</h4></a>"; } if (! is_null($data[$x]->molecular_formula)) { echo "<h4>" . $data[$x]->molecular_formula . "</h4></div>"; } else { echo ("<h4>暂无分子式</h4></div>"); } } echo "</div>"; } ?>
+ $data = $_SESSION['search']; if (empty($data)) { echo "<div class=\"head_text\"><h3>无搜索结果</h3></div>"; } else { echo "<div class=\"head_text col-md-10\"><h3>搜索结果展示：</h3></div><div class=\"head_text col-md-2\">"; echo "<a href=\"/chemical_manage/index.php/Admin/export?kwd=" . $_SESSION['kwd'] . "\" class=\"btn btn-primary btn-block\" style=\"margin-top:10px;\">导出结果</a></div>"; echo "<div class=\"list-container col-md-12\" style=\"margin-top:30px;\">"; $length = count($data); for ($x = 0; $x < $length; $x ++) { $img = "/chemical_manage/index.php/Home/img.php?image_id=" . $data[$x]->id; echo "<div class=\"item-comtainer col-xs-6 col-sm-4 col-md-3\"><div class=\"box\"><img src=\"/chemical_manage/index.php/Admin/img.php?image_id=" . $data[$x]->id . "\"></div>"; if (! is_null($data[$x]->name_zh)) { echo "<a href=\"/chemical_manage/index.php/Admin/chemical/detail?id=" . $data[$x]->id . "\"><h4>" . $data[$x]->name_zh . "</h4></a>"; } else { echo "<a href=\"/chemical_manage/index.php/Admin/chemical/detail?id=" . $data[$x]->id . "\"><h4>暂无中文名</h4></a>"; } if (! is_null($data[$x]->molecular_formula)) { echo "<h4>" . $data[$x]->molecular_formula . "</h4></div>"; } else { echo ("<h4>暂无分子式</h4></div>"); } } echo "</div>"; } ?>
             
 
 	</div>

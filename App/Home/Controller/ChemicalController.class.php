@@ -35,6 +35,7 @@ class ChemicalController extends BaseController
             $this->display("Search:detail");
         }
     }
+
 }
 
 ?>

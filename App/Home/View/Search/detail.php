@@ -125,7 +125,7 @@ body {
 
 .info-i img {
 	max-width: 100%;
-}  
+}
 </style>
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -139,10 +139,11 @@ body {
 		<div class="container">
 			<div class="row">
 				<div class="logo col-xs-6 col-sm-5 col-md-3">
-					<img src="__ROOT__/Public/Bootstrap/imgs/a.png"
-						alt="Nanjing University" style="height: 55px">
+					<a href="__ROOT__/chemical_manage/Home/search"><img
+						src="__ROOT__/Public/Bootstrap/imgs/a.png"
+						alt="Nanjing University" style="height: 55px"></a>
 				</div>
-				<div class="col-xs-0 col-sm-2 col-md-5"></div>
+				<div class="col-xs-0 col-sm-2 col-md-3"></div>
 				<div class="logo col-xs-6 col-sm-5 col-md-4">
 					<form class="" role="search" style="margin-top: 15px;"
 						action="__ROOT__/index.php/Home/chemical/search">
@@ -150,11 +151,16 @@ body {
 							<input type="text" class="form-control"
 								placeholder="中文名/英文名/CAS号" name="kwd"> <span
 								class="input-group-btn"> <input class="btn btn-primary"
-								type="submit">Search！</input>
+								type="submit">搜索</input>
 							</span>
 						</div>
 					</form>
 				</div>
+				<div class="col-xs-2 col-sm-2 col-md-2">
+					<button class="btn btn-danger" style="margin-top: 15px;"
+						onclick="window.location.href='__ROOT__/Home/logout'">注销</button>
+
+				</div> 
 			</div>
 		</div>
 	</div>

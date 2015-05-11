@@ -61,12 +61,13 @@
 
 			<div class="row">
 				<div class="logo col-xs-6 col-sm-4 col-md-3">
-					<img src="/chemical_manage/Public/Bootstrap/imgs/a.png"
-						alt="Nanjing University" style="height: 55px">
+					<a href="/chemical_manage/index.php/Admin/chemical/search"><img
+						src="/chemical_manage/Public/Bootstrap/imgs/a.png"
+						alt="Nanjing University" style="height: 55px"></a>
 				</div>
 				<div class="col-xs-0 col-sm-2 col-md-2"></div>
 
-				<div class="logo col-xs-4 col-sm-4 col-md-5">
+				<div class="logo col-xs-2 col-sm-2 col-md-3">
 
 					<form class="" role="search" style="margin-top: 15px;"
 						action="/chemical_manage/index.php/Admin/chemical/search">
@@ -74,16 +75,20 @@
 							<input type="text" class="form-control"
 								placeholder="中文名/英文名/CAS号" name="kwd"> <span
 								class="input-group-btn">
-								<button class="btn btn-primary" onclick="this.form.submit()">
-									搜索</button>
-
+								<button class="btn btn-primary" onclick="this.form.submit()">搜索</button>
 							</span>
 						</div>
 					</form>
 				</div>
 
 				<div class="col-xs-2 col-sm-2 col-md-2">
-					<button class="btn btn-primary" style="margin-top: 15px;" onclick="window.location.href='/chemical_manage/index.php/Admin/chemical/add'">新增条目</button>
+					<button class="btn btn-primary" style="margin-top: 15px;"
+						onclick="window.location.href='/chemical_manage/index.php/Admin/chemical/add'">新增条目</button>
+
+				</div>
+				<div class="col-xs-2 col-sm-2 col-md-2">
+					<button class="btn btn-danger" style="margin-top: 15px;"
+						onclick="window.location.href='/chemical_manage/index.php/Admin/logout'">注销</button>
 
 				</div>
 			</div>

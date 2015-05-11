@@ -131,8 +131,9 @@ body {
 		<div class="container">
 			<div class="row">
 				<div class="logo col-xs-6 col-sm-4 col-md-3">
-					<img src="__ROOT__/Public/Bootstrap/imgs/a.png"
-						alt="Nanjing University" style="height: 55px">
+					<a href="__ROOT__/index.php/Admin/chemical/search"><img
+						src="__ROOT__/Public/Bootstrap/imgs/a.png"
+						alt="Nanjing University" style="height: 55px"></a>
 				</div>
 				<div class="col-xs-0 col-sm-2 col-md-2"></div>
 

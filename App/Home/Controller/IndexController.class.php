@@ -11,7 +11,7 @@ class IndexController extends BaseController
 
     public function index()
     {
-        $this->redirect("/Home/chemical/search");
-            }
+        $this->display("Index:index");
+    }
 }
 ?>

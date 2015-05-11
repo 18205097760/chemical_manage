@@ -156,9 +156,8 @@ body {
 		<div class="container">
 			<div class="row">
 				<div class="logo col-xs-6 col-sm-4 col-md-3">
-					<a href="__ROOT__/index.php/Admin/chemical/search"><img
-						src="__ROOT__/Public/Bootstrap/imgs/a.png"
-						alt="Nanjing University" style="height: 55px"></a>
+					<img src="__ROOT__/Public/Bootstrap/imgs/a.png"
+						alt="Nanjing University" style="height: 55px">
 				</div>
 				<div class="col-xs-0 col-sm-2 col-md-2"></div>
 
@@ -176,12 +175,12 @@ body {
 						</div>
 					</form>
 				</div>
-<!-- 
+
 				<div class="col-xs-2 col-sm-2 col-md-2">
 					<button class="btn btn-primary" style="margin-top: 15px;"
-						onclick="window.location.href=''">新增条目</button>
+						onclick="window.location.href='HTTP://www.baidu.com'">新增条目</button>
 
-				</div>  -->
+				</div> 
 			</div>
 		</div>
 	</div>

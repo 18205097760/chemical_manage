@@ -37,31 +37,13 @@
 	<div class="navbar">
 		<div class="container">
 			<div class="navbar-header">
-				<!-- 
 				<div class="fb-header-logo-container navbar-brand"
 					style="padding-top: 0">
 					<img src="__ROOT__/Public/Bootstrap/imgs/a.png"
 						alt="Nanjing University" style="height: 55px">
 				</div>
- -->
-
-				<div class="row">
-					<div class="logo col-xs-6 col-sm-4 col-md-3">
-						<img src="__ROOT__/Public/Bootstrap/imgs/a.png"
-							alt="Nanjing University" style="height: 55px">
-					</div>
-					<div class="col-xs-0 col-sm-2 col-md-2"></div>
-
-					
-
-					<div class="col-xs-2 col-sm-2 col-md-2" style="float: right">
-						<button class="btn btn-primary" style="margin-top: 15px;"
-							onclick="window.location.href='__ROOT__/index.php/Admin'">管理员登录</button>
-
-					</div>
-				</div>
-
-				<!--   <div class="navbar-collapse collapse pull-right">
+				<!-- 
+                <div class="navbar-collapse collapse pull-right">
                     <ul class="nav nav-pills pull-right">
                         <li role="presentation" class="active"><a href="">首页</a></li>
                         <li role="presentation"><a href="">产品列表</a></li>
@@ -69,8 +51,8 @@
                         <li role="presentation"><a href="">登录</a></li>
                         <li role="presentation"><a href="">注册</a></li>
                     </ul>
-                </div> -->
-
+                </div>
+                 -->
 			</div>
 		</div>
 	</div>

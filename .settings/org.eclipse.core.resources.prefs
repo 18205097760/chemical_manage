@@ -1,6 +1,11 @@
 eclipse.preferences.version=1
 encoding//App/Common/Conf/config.php=UTF-8
 encoding//App/Home/Conf/config.php=UTF-8
+encoding//App/Home/View/User/chemicalDetail.php=UTF-8
+encoding//App/Home/View/User/chemicalSearch.php=UTF-8
+encoding//App/Home/View/User/dangerHighChemical.php=UTF-8
+encoding//App/Home/View/User/dangerLowChemical.php=UTF-8
+encoding//App/Home/View/User/dangerNonChemical.php=UTF-8
 encoding//ThinkPHP/Common/functions.php=UTF-8
 encoding//ThinkPHP/Conf/convention.php=UTF-8
 encoding//ThinkPHP/Library/Org/Net/IpLocation.class.php=UTF-8
